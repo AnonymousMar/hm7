@@ -20,6 +20,10 @@
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
         margin-left: auto;
     }
+    .header{
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
     .header-list :hover,
 .header-list:focus{
 color:var(--blue-color);
@@ -43,6 +47,9 @@ color:var(--blue-color);
 }
 .menu-open{
     display: none;
+}
+.team-title-foto{
+   width: 396px;
 }
 .curent{
     position: relative;
@@ -131,6 +138,9 @@ color:var(--blue-color);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url('../images/office-2x.jpg');
   }
 }
+.solutions-title{
+    width:320px;
+}
     .foto-list{
         display: flex;
         gap: 24px;
@@ -211,6 +221,7 @@ color:var(--blue-color);
         }
     .team-title-foto{
             width: 100%;
+            margin-bottom: 0px;
         }
     .customers{
         padding-bottom: 120px;
@@ -221,6 +232,9 @@ color:var(--blue-color);
 
     .logo{
         width: calc((100% - 168px)/ 6);
+        }
+        .modal{
+            width: 408px;
         }
         .footer{
             padding-top:100px;
@@ -245,11 +259,25 @@ color:var(--blue-color);
             margin-right: 80px;
         }
         .subscribe{
-            margin-left: auto;
             margin-right: auto;
+            margin-bottom: 0px;
+            text-align:left;
+        }
+        .button-s{
+            margin-left:0px;
+            margin-right:0px;
         }
         .email{
             width: 264px;
+        }
+        .modal-coment{
+            width: 360px;
+            }
+        .v:not(:last-child){
+            margin-bottom: 0px;
+        }
+        .footer-div-1{
+            margin-top:0px ;
         }
         .contact-form{
             display: flex;

@@ -1,4 +1,4 @@
-@media screen and  (min-width:320px) and (max-width:767px) {
+@media screen and  (min-width:428px) and (max-width:767px) {
     .container{
         max-width: 428px;
        }
@@ -11,41 +11,35 @@
        .foto-text0{
         display: none;
        }
-     /*  .sol{
-        max-width: 428px;
-        min-width: 320px;
-    }*/
-    .v:not(:last-child){
-        margin-bottom: 72px;
-    }
-    .header{
-        padding-top:25px ;
-        padding-bottom: 25px;
-    }
-       .title-list{
-        text-align: center;
-       }
        .studio-footer{
-        text-align: center;
-    }
-    .end-text{  
         text-align: left;
     }
-    .footer-div-1{
-        margin-top:72px ;
-    }
-    .team-title-foto{
-        margin-bottom: 48px;
-    }
-    .subscribe{
-        text-align: center;
-        margin-left: auto;
-        margin-bottom: 16px;
-    }
-    .button-s{
+    .div{
         margin-left: auto;
         margin-right: auto;
     }
+    .mob-menu-link1{
+        font-size: 36px;
+        line-height:calc(40/36);
+        }
+    .social-mob-menu {
+        gap: 64px;
+    }
+    .team-title-foto{
+       width: 396px;
+    }
+    .solutions-title{
+        width:320px;
+    }
+    .email{
+        width: 396px;
+    }
+    .modal{
+        width: 408px;
+    }
+    .modal-coment{
+        width: 360px;
+        }
        .box-icone2{ 
         justify-content: center;
     }
