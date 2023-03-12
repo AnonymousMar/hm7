@@ -125,8 +125,10 @@ body{
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     overflow-y: auto;
+}
+.list4{
+    margin-top: auto;
 }
 .menu-close{
     display:flex;
@@ -654,7 +656,7 @@ font-size: 16px;
 line-height:calc(24/16);
 color: var(--while-color);
 text-align: center;
-padding-bottom: 16px;
+margin-bottom: 16px;
 }
 .box-icone2{
     display: flex;
@@ -690,7 +692,7 @@ color: var(--blue2-color);
 
 .div{
 /*margin-left: auto;*/
-margin-right: auto;
+margin-right: 120px;
 }
 /*------------------MODAL--------------*/
 .backdrop{

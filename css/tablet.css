@@ -1,6 +1,6 @@
 @media screen and  (min-width:768px )and (max-width:1199px) {
     .container{
-        max-width: 582px;
+        max-width: 768px;
        }
     .team-title>.container{
         max-width: 582px;
@@ -47,9 +47,6 @@ color:var(--blue-color);
 .header-list1:focus{
 color:var(--blue-color);
 }
-.team-title-foto{
-   width: 396px;
-}
 .menu-svg{
     display: none;
 }
@@ -61,6 +58,8 @@ color:var(--blue-color);
 }
 .team-foto-list{
     width: calc((100% - 24px) / 2);
+    margin-left: auto;
+    margin-right: auto;
 }
 .curent{
     position: relative;
@@ -185,7 +184,6 @@ line-height: calc(14/12);
         gap:64px 24px;
         }
         .team-title-foto{
-          width: calc((100% - 24px) / 2);
           margin-bottom: 0px;
         }
     .customers{
