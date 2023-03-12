@@ -137,7 +137,7 @@ body{
     border:1 px solid var(--while2-color);
     border-radius: 50%;
     cursor: pointer;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
     background-color: var(--while2-color);
 }
