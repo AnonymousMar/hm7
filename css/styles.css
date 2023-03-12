@@ -137,8 +137,8 @@ body{
     border:1 px solid var(--while2-color);
     border-radius: 50%;
     cursor: pointer;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     background-color: var(--while2-color);
 }
 .menu-close:hover,
