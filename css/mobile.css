@@ -3,7 +3,7 @@
         max-width: 428px;
        }
        .team-title>.container{
-        max-width: 264px;
+        max-width: 294px;
        }
        .footer-container>.container{
         max-width: 264px;
@@ -15,6 +15,13 @@
         max-width: 428px;
         min-width: 320px;
     }*/
+    .v:not(:last-child){
+        margin-bottom: 72px;
+    }
+    .header{
+        padding-top:25px ;
+        padding-bottom: 25px;
+    }
        .title-list{
         text-align: center;
        }
@@ -22,7 +29,13 @@
         text-align: center;
     }
     .end-text{  
-         text-align: center;
+        text-align: left;
+    }
+    .footer-div-1{
+        margin-top:72px ;
+    }
+    .team-title-foto{
+        margin-bottom: 48px;
     }
     .subscribe{
         text-align: center;
